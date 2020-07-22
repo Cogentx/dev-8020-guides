@@ -55,6 +55,8 @@ The root of our document (parent) tag is `<html>` which tells the browser we are
 
 It's a good idea when first starting to write both the opening and closing tags then go back inside it.
 
+The `<html>` tag also often includes a language such as `<html lang="en">`
+
 #### HEAD
 
 The `<head>` generally comes next and contains important information for the browser, though nothing in the `<head>` is directly visible on the page itself.
