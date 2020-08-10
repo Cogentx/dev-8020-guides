@@ -8,3 +8,4 @@ CSS, together HTML and JS, form the **building blocks of the web**
 
 Makes the web look good - makes the content more interesting!
 
+It's all about **STYLE**!!!
