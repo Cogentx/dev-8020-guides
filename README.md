@@ -2,8 +2,13 @@
 
 ## Includes
 
-- GIT
-- Angular
-- DevConcepts
+- HTML
+- CSS
 - JavaScript
 - TypeScript
+- React
+- Angular
+- Node
+- RxJS
+- DevConcepts
+- GIT
