@@ -25,3 +25,16 @@ more...
 }
 ```
 
+### Padding
+
+
+### Margin
+
+**Important** 
+
+` margin: 0 auto; `
+
+The  ` auto `  setting only works if you have a  ` width `  set on the element (otherwise width is assumed to be 100% and  ` auto`  does nothing)
+
+Also,  ` auto `  will NOT work on the top and bottom to center vertically!
+
