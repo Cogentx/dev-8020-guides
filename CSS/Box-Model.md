@@ -25,6 +25,22 @@ more...
 }
 ```
 
+To have a border be included in the element width instead of being added to it set:
+
+```css
+.outer-div {
+    width: 20px;
+    height: 20px;
+}
+.inner-div {
+    background-color: white;
+    border: 5px solid #333333;
+    box-sizing: border-box;
+}
+```
+
+This creates the appearance of a 10px by 10px `white` box since 5px on either side are taken up by the border: 5 + 10 + 5 px in both height and width.
+
 ### Padding
 
 
