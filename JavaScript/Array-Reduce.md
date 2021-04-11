@@ -2,7 +2,33 @@
 
 ## Array Functions
 
-### REDUCE()
+### REDUCE() as an Object of Counts where Keys are Dynamic
+
+```javascript
+function countPizzasInTopping(pizzas) {
+  // return pizzas with counts
+  const counts = pizzas
+    .map((p) => p.toppings)
+    .flat()
+    .reduce((acc, topping) => {
+      // check if it is existing topping, otherwise create new entry and include count
+      acc[`${topping.id}`] = acc[`${topping.id}`] || {
+        id: topping.id,
+        name: topping.name,
+        count: 0,
+      };
+      // increment
+      acc[`${topping.id}`].count += 1;
+      return acc;
+    }, {});
+
+  // sort decending by count
+  return Object.values(counts).sort((a, b) => b.count - a.count);
+}
+```
+
+
+### REDUCE() inside React Component
 
 **Challenge**: You have an Array of Objects; on each object is a ` price ` ;  your challenge is to calculate the  ` totalPrice ` .
 
