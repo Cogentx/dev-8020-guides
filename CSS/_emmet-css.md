@@ -1,6 +1,16 @@
-# Emmet
+# CSS
 
-## CSS
+## Emmet
+
+### Flexbox
+
+|:---|:---|
+|Shortcut|Result|
+|df|display: flex;|
+|acc|align-content: center;|
+|aic|align-items: center;|
+|jic|justify-items: center;|
+
 
 ### Grid
 
@@ -21,7 +31,6 @@
 |posrelposition: relative;|
 |z2|z-index: 2;|
 
-
 ### Margin and Padding
 
 |:---|:---|
@@ -29,6 +38,7 @@
 |mb3r|margin-bottom: 3rem;|
 |mb-2r|margin-bottom: -2rem;|
 |mt-6r|margin-top: -6rem;|
+|p1r|padding: 1rem;|
 |p5px|padding: 5px;|
 
 ### Formatting
