@@ -72,3 +72,22 @@ Sub Color_Right()
 End Sub
 ```
 
+### Select and Add Text to Cell - run Macro
+
+Dev tab; select Create Macro; give name; make moves and inserts, etc. on worksheet.
+
+Run macro uses the optional shortcut you may have provided when creating macro; or select macro list and choose the one to run
+
+### Select and Add Text to Cell - run from Button
+
+Dev tab; drag button unto worksheet; right click on button and select add macro; select the one we created above.
+
+### Select and Add Text to Cell - run from Shape
+
+Insert tab; drag shape unto worksheet; right click on shape; add text; change color, font, ect (advantage of using a shape over a form button) and select add macro; select the one we created above.
+
+### Select and Add Text to Cell - run from Toolbar
+
+Inside the VBA editor, place cursor anywhere within macro code block; press the Run button (looks like a play button)
+
+
