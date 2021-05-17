@@ -40,5 +40,12 @@ const getIndex = (basket, id) => basket?.map(item => item.id).indexOf(id);
   - since we are now dealing with a one-dimensional array of  ` id `  values (which are in the exact same order that their objects were in -- result of using  ` array.map() `  function) we now have the  ` index `  (array location) of the object to remove.
 - use the JS  ` ...spread `  operator to create a new array that contains all the objects before the item deleted as well as all the items (if any) that come after the item that is being deleted
 
+Simple Example:
 
+```javascript
+let arr=[1,2,3,4,5];
+console.log([...arr.slice(0, 2), ...arr.slice(3)]);
+```
+
+Console Result: Array(4) [ 1, 2, 4, 5 ]
 
