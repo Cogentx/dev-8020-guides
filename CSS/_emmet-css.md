@@ -54,6 +54,7 @@
 |:---|:---|
 |Shortcut|Result|
 |fs|font-style: ;|
+|fz50|font-size: 50px;|
 |bg|background: #000;|
 |aic|align-items: center;|
 |p2px5px|padding: 2px 5px;|
