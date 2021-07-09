@@ -2,6 +2,13 @@
 
 ## Box Model
 
+```css
+html {
+  /* border-box box model allows us to add padding and border to our elements without increasing their size */
+  box-sizing: border-box;
+}
+```
+
 ### Notes
 
 ![02-21]
