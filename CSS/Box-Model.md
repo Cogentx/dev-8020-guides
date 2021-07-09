@@ -9,6 +9,19 @@ html {
 }
 ```
 
+The best approach to apply box-sizing???
+```css
+/*
+  We inherit box-sizing: border-box; from our <html> selector
+  Apparently this is a bit better than applying box-sizing: border-box; directly to the * selector
+*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+```
+
 ### Notes
 
 ![02-21]
