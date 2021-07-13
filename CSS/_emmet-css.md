@@ -10,6 +10,7 @@
 |acc|align-content: center;|
 |aic|align-items: center;|
 |jic|justify-items: center;|
+|jcc|justify-content: center;|
 
 
 ### Grid
@@ -29,14 +30,18 @@
 
 ### Layout
 
-|:---|:---|
 |Shortcut|Result|
+|:---|:---|
 |d:b|display: block;|
 |tac|text-align: center;|
 |posa|position: absolute;|
+|posr|position: relative;|
 |pos-r|position: relative;|
-|posrelposition: relative;|
+|posrel|position: relative;|
+|posrlposition: relative;|
 |z2|z-index: 2;|
+|t50|top: 50px;|
+|t50%|top: 50%;|
 
 ### Margin and Padding
 
