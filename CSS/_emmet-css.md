@@ -22,6 +22,8 @@
 |gtr|grid-template-rows: repeat()|
 |gap1r|gap: 1rem;|
 |gc|grid-column: ;|
+|gar500|grid-auto-rows: 500px;|
+|gac500|grid-auto-columns: 500px;|
 |mxh|max-height: ;|
 |ov|overflow: auto;|
 |acc|align-content: center;|
