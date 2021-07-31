@@ -62,3 +62,29 @@ Header.propTypes = {
   title: PropTypes.string.isRequired
 }
 ```
+
+### Use Dynamic ClassList to change Style
+
+Set **className** equal to curly braces. Inside braces use backticks to setup JS template literal syntax. Use ternary operator ( ? ) to apply class (as a string) if **reminder** is true or empty string if not true.
+
+```javascript
+import {FaTimes} from 'react-icons/fa';
+
+export default function Task({task, onDelete, onToggle}) {
+
+  return (
+    <div className={`task ${task.reminder ? 'reminder' : ''}`} onDoubleClick={() => onToggle(task.id)}>
+      <h3 key={task.id}>
+        {task.name} 
+         <FaTimes 
+           style={{color: 'red', cursor:'pointer'}}
+           onClick={() => onDelete(task.id)}/>
+      </h3>
+      <p>{task.date}</p>
+      
+    </div>
+  )
+}
+```
+
+
