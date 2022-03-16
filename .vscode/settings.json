@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Default Light+",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "files.autoSave": "afterDelay"
 }
